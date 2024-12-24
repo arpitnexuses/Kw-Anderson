@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.country-selector {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.country-selector h2 {
+    color: #C41E3A;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+select {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.map-container {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.offices-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.office-card {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.office-card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.office-logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.office-logo {
+    max-width: 200px;
+    max-height: 80px;
+    object-fit: contain;
+}
+
+.office-title {
+    color: #C41E3A;
+    margin-bottom: 10px;
+}
+
+.office-details {
+    color: #333;
+    line-height: 1.6;
+}
+
+.office-manager {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.office-address {
+    margin-bottom: 10px;
+}
+
+.office-contact {
+    color: #666;
+}
+
+.office-website {
+    color: #C41E3A;
+    text-decoration: none;
+}
+
+.office-website:hover {
+    text-decoration: underline;
+}
+
+.collaborator-text {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    font-style: italic;
+    color: #666;
+}
+
+.office-card h6 {
+    color: #C41E3A;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.office-card p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.office-card a {
+    color: #C41E3A;
+    text-decoration: none;
+}
+
+.office-card a:hover {
+    text-decoration: underline;
+}
+
+.country-link {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f8f8f8;
+    border-radius: 8px;
+}
+
+.country-website {
+    display: inline-block;
+    padding: 12px 24px;
+    background: #C41E3A;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.country-website:hover {
+    background: #a01830;
+    text-decoration: none;
+}
+
+.no-offices-message {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f8f8f8;
+    border-radius: 8px;
+    color: #666;
+}
+
+.no-offices-message p {
+    margin-bottom: 15px;
+}
+
+.no-offices-message a {
+    color: #C41E3A;
+    text-decoration: none;
+}
+
+.no-offices-message a:hover {
+    text-decoration: underline;
+} 
